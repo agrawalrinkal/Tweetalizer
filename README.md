@@ -8,6 +8,7 @@ Shows a real-time top tweets visualization on the US map based on user selection
 3. Flow the twitter stream through the count bolt
 4. Count bolt counts the num of likes and retweets on any tweet and pass it to the Top-tweets bolt
 5. Top-tweets bolt takes in the tweets and their count and picks the top 50 tweets with the highest count
-6. Implement US map visualization and display the top 10 tweets using the tweet's geolocation per state.
-7. Display less or no tweets if found.
-
+6. Implement a Report Bolt that would take in the final results and pass it to the visualization bolt
+7. Implement US map visualization and display the top 10 tweets using the tweet's geolocation per state.
+8. Display less or no tweets if found.
+9. 
